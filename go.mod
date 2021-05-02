@@ -1,4 +1,4 @@
-module github.com/ipfans/echo-session
+module github.com/hdbar/session
 
 go 1.12
 
@@ -8,6 +8,8 @@ require (
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/sessions v1.1.3
+	github.com/ipfans/echo-session v3.2.0+incompatible
+	github.com/labstack/echo v3.3.10+incompatible // indirect
 	github.com/labstack/echo/v4 v4.1.6
 	github.com/lib/pq v1.1.1 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
